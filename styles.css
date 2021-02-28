@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #07647967, #61235196), url('/img/alice-yamamura-kDbEtJf8yYk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 20px 30px;
+}
+nav i{
+    display: block;
+}
+.hero-container{
+    padding-top: 50px;
+    margin: 30px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+}
+.content{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.content h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content P{
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.content a{
+    display: block;
+    color: #fff;
+    background-color: rgba(39, 20, 141, 0.671);
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-size: small;
+    font-weight: 200;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.coutndown{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.coutndown .box{
+    margin: 0 10px;
+    text-align: center;
+    border: 0px #fff solid;
+    padding: 10px;
+    width: 5vw;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 2px 5px 5px 1px rgba(14, 13, 13, 0.089);
+}
+
+.day-box{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(178, 55, 178, 0.616);
+}
+    
+.hour-box{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(55, 98, 178, 0.582);
+}
+.mini-box{
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(100, 178, 55, 0.582);
+}
+.sec-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(178, 55, 55, 0.582);
+}
+
+@media

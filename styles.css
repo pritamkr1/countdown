@@ -108,4 +108,54 @@ nav i{
     background-color: rgba(178, 55, 55, 0.582);
 }
 
-@media
+@media(max-width: 600px){
+    .hero-container{
+        margin: 0 20px;
+        padding-top: 30px;
+        margin: 30px 2%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto;
+    }
+    .coutndown .box{
+        margin: 0 10px;
+        width: 17vw;
+
+    }
+    .coutndown{
+        margin-top: 50px;
+        display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    }
+    body{
+        background-image: linear-gradient(to top, #07647967, #61235196), url('/img/mobile.jpg');
+    }
+}
+
+@media(max-width: 700px){
+    .coutndown .box{
+        margin: 0 10px;
+        width: 14vw;
+
+    }
+    .hero-container{
+        margin: 0 20px;
+        padding-top: 30px;
+        margin: 30px 2%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto;
+    }
+    .coutndown .box{
+        margin: 0 10px;
+        width: 13vw;
+
+    }
+    .coutndown{
+        margin-top: 50px;
+        display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    }
+}
